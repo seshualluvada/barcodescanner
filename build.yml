@@ -7,11 +7,11 @@ bbver: '6.0'
 applog: rholog.txt
 iphone:
   configuration: Release
-  sdk: iphonesimulator6.0
+  sdk: iphoneos6.0
   provisionprofile: ''
-  codesignidentity: ''
+  codesignidentity: 'iPhone Developer'
   entitlements: ''
-  BundleIdentifier: com.rhomobile.barcodeexample
+  BundleIdentifier: com.carefusion.barcodeexample
   BundleURLScheme: barcodeexample
 wp:
   productid: b3a5d690-dce1-0130-db11-3c07547b3491
